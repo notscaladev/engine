@@ -2,3 +2,6 @@
 /ipch
 /fireblast.sdf
 /fireblast.math/Debug
+/TestResults
+/fireblast.test/Debug
+/fireblast.tdd/Debug

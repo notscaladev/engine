@@ -16,4 +16,9 @@ public:
 	{
 		return number % 2 == 1;
 	}
+
+	bool isDouble(int number)
+	{
+		return number % 2 == 0.0;
+	}
 };

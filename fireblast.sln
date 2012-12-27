@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.math", "fireblast.math\fireblast.math.vcxproj", "{881A68DF-1045-422B-B7C1-4B4DAD3A6BD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.test", "fireblast.test\fireblast.test.vcxproj", "{52A8BD66-55CD-4FE5-A089-B8BF96B1EAE6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.tdd", "fireblast.tdd\fireblast.tdd.vcxproj", "{F333C5CA-BB69-41A4-A2D8-6D941A153792}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +17,14 @@ Global
 		{881A68DF-1045-422B-B7C1-4B4DAD3A6BD4}.Debug|Win32.Build.0 = Debug|Win32
 		{881A68DF-1045-422B-B7C1-4B4DAD3A6BD4}.Release|Win32.ActiveCfg = Release|Win32
 		{881A68DF-1045-422B-B7C1-4B4DAD3A6BD4}.Release|Win32.Build.0 = Release|Win32
+		{52A8BD66-55CD-4FE5-A089-B8BF96B1EAE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52A8BD66-55CD-4FE5-A089-B8BF96B1EAE6}.Debug|Win32.Build.0 = Debug|Win32
+		{52A8BD66-55CD-4FE5-A089-B8BF96B1EAE6}.Release|Win32.ActiveCfg = Release|Win32
+		{52A8BD66-55CD-4FE5-A089-B8BF96B1EAE6}.Release|Win32.Build.0 = Release|Win32
+		{F333C5CA-BB69-41A4-A2D8-6D941A153792}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F333C5CA-BB69-41A4-A2D8-6D941A153792}.Debug|Win32.Build.0 = Debug|Win32
+		{F333C5CA-BB69-41A4-A2D8-6D941A153792}.Release|Win32.ActiveCfg = Release|Win32
+		{F333C5CA-BB69-41A4-A2D8-6D941A153792}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
