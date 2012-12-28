@@ -5,3 +5,11 @@
 /TestResults
 /fireblast.test/Debug
 /fireblast.tdd/Debug
+/fireblast.color/Debug
+/fireblast.color/Release
+/fireblast.util/Release
+/fireblast.util/Debug
+/Release
+/fireblast.tdd/Release
+/fireblast.math/Release
+/fireblast.test/Release

@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.test", "fireblast
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.tdd", "fireblast.tdd\fireblast.tdd.vcxproj", "{F333C5CA-BB69-41A4-A2D8-6D941A153792}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.color", "fireblast.color\fireblast.color.vcxproj", "{99039F65-AC94-4FFF-844E-66981B5F95A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.util", "fireblast.util\fireblast.util.vcxproj", "{AC684A56-9960-41C7-A5FD-3C1A4DAE9235}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +29,14 @@ Global
 		{F333C5CA-BB69-41A4-A2D8-6D941A153792}.Debug|Win32.Build.0 = Debug|Win32
 		{F333C5CA-BB69-41A4-A2D8-6D941A153792}.Release|Win32.ActiveCfg = Release|Win32
 		{F333C5CA-BB69-41A4-A2D8-6D941A153792}.Release|Win32.Build.0 = Release|Win32
+		{99039F65-AC94-4FFF-844E-66981B5F95A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99039F65-AC94-4FFF-844E-66981B5F95A5}.Debug|Win32.Build.0 = Debug|Win32
+		{99039F65-AC94-4FFF-844E-66981B5F95A5}.Release|Win32.ActiveCfg = Release|Win32
+		{99039F65-AC94-4FFF-844E-66981B5F95A5}.Release|Win32.Build.0 = Release|Win32
+		{AC684A56-9960-41C7-A5FD-3C1A4DAE9235}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC684A56-9960-41C7-A5FD-3C1A4DAE9235}.Debug|Win32.Build.0 = Debug|Win32
+		{AC684A56-9960-41C7-A5FD-3C1A4DAE9235}.Release|Win32.ActiveCfg = Release|Win32
+		{AC684A56-9960-41C7-A5FD-3C1A4DAE9235}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
