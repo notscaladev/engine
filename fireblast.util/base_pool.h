@@ -42,6 +42,52 @@ public:
 			availableItems->insert(this->onHandleAllocatePoolItem());
 		}
 	}
+
+	T obtainPoolItem()
+	{
+		T* item;
+
+		if(this->m_AvailableItems.size > 0)
+		{
+			item = this->m_AvailableItems.remove(this->m_AvailableItems.size - 1);
+		}
+		
+		else
+		{
+			if(this->m_growth == 1 || this->m_AvailableItemCountMaximum == 0)
+			{
+				item = this->onHandleAllocatePoolItem();
+			}
+			else
+			{
+				this->batchAllocatePoolItems(this->m_growth);
+				item = this->m_AvailableItems.remove(this->m_AvailableItems.size - 1);
+			}
+		}
+
+		this->onHandleObtainItem(item);
+		this->m_UnrecycledItemCount++;
+
+		return item;
+	}
+
+	void recyclePoolItem(T& item)
+	{
+		if(item == null)
+		{
+			return;
+		}
+
+		this->onHandleRecycleItem(item);
+
+		if(this->m_AvailableItems.size < this->m_AvailableItemCountMaximum)
+		{
+			this->m_AvailableItems.insert(item);
+		}
+
+		this->m_UnrecycledItemCount--;
+	}
+
 protected:
 	virtual T onAllocatePoolItem() = 0;
 
