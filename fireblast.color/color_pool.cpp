@@ -1,10 +1,7 @@
 #include "../fireblast.util/base_pool.h"
 #include "color.h"
+#include "stdafx.h"
 
-class ColorPool : public BasePool<Color>
+class ColorPool
 {
-public:
-	Color ColorPool::onAllocatePoolItem()
-	{
-	}
 };
