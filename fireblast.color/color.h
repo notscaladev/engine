@@ -37,13 +37,25 @@ public:
 
 	Color(float red, float green, float blue, float alpha){}
 
-	float getRedColor();
+	float getRedColor()
+	{
+		return this->m_Red;
+	}
 
-	float getGreenColor();
+	float getGreenColor()
+	{
+		return this->m_Green;
+	}
 
-	float getBlueColor();
+	float getBlueColor()
+	{
+		return this->m_Blue;
+	}
 
-	float getAlphaColor();
+	float getAlphaColor()
+	{
+		return this->m_Alpha;
+	}
 
 	void setRedColor(float red);
 
@@ -73,9 +85,15 @@ public:
 
 	bool isColor(Color* color);
 
-	int getABGRPackedInt();
+	int getABGRPackedInt()
+	{
+		return this->m_ABGRPackedInt;
+	}
 
-	float getABGRPackedFloat();
+	float getABGRPackedFloat()
+	{
+		return this->m_ABGRPackedFloat;
+	}
 
 	int getARGBPackedInt();
 
