@@ -6,7 +6,7 @@
 #pragma once
 
 #include "targetver.h"
-#include "listener\state_change_listener.h"
+#include "listener\position_change_listener.h"
 #include "actor\object.h"
 
 #define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
