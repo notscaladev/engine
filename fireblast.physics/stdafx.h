@@ -7,7 +7,7 @@
 
 #include "targetver.h"
 #include "listener\position_change_listener.h"
-#include "actor\object.h"
+#include "listener\collision_listener.h"
 
 #define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
 // Windows Header Files:

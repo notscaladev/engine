@@ -24,10 +24,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="actor\object.h">
+    <ClInclude Include="listener\position_change_listener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="listener\position_change_listener.h">
+    <ClInclude Include="listener\collision_listener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
