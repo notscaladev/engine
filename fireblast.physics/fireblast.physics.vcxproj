@@ -76,6 +76,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="listener\collision_listener.h" />
+    <ClInclude Include="listener\position_change_listener.h" />
+>>>>>>> remotes/origin/dev
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
